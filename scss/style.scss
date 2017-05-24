@@ -2,3 +2,15 @@ img
 	width: 30%
 	float: left
 	margin: 1.66%
+
+@media (max-width: 700px) 
+  html 
+  	img
+  		width:  42.8571429%
+  		margin: 3.57142855%
+
+@media (max-width: 350px) 
+  html 
+  	img
+  		width:  88%
+  		margin: 6%
