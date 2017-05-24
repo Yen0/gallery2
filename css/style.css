@@ -1,14 +1,63 @@
-img {
+.thumb1 {
   width: 30%;
   float: left;
-  margin: 1.66%; }
+  margin: 1.66%;
+  background-image: url("http://lorempixel.com/output/abstract-q-c-600-600-7.jpg"); }
+
+.thumb2 {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  background-image: url("http://lorempixel.com/output/city-q-c-600-600-9.jpg"); }
+
+.thumb3 {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  background-image: url("http://lorempixel.com/output/people-q-c-600-600-7.jpg"); }
+
+.thumb4 {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  background-image: url("http://lorempixel.com/output/animals-q-c-600-600-7.jpg"); }
+
+.thumb5 {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  background-image: url("http://lorempixel.com/output/food-q-c-600-600-7.jpg"); }
+
+.thumb6 {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  background-image: url("http://lorempixel.com/output/nature-q-c-600-600-10.jpg"); }
+
+.thumb7 {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  background-image: url("http://lorempixel.com/output/sports-q-c-600-600-6.jpg"); }
+
+.thumb8 {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  background-image: url("http://lorempixel.com/output/fashion-q-c-600-600-8.jpg"); }
+
+.thumb9 {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  background-image: url("http://lorempixel.com/output/people-q-c-600-600-2.jpg"); }
 
 @media (max-width: 700px) {
-  html img {
+  img {
     width: 42.8571429%;
     margin: 3.57142855%; } }
 
 @media (max-width: 350px) {
-  html img {
+  img {
     width: 88%;
     margin: 6%; } }

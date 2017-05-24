@@ -1,22 +1,58 @@
 $small-screen: 350px
 $medium-screen: 700px
 
+@mixin thumb($image)
+  width: 30%
+  float: left
+  margin: 1.66%
+  background-image: url($image)
 
 
 
-img
-	width: 30%
-	float: left
-	margin: 1.66%
+.thumb1
+  @include thumb("http://lorempixel.com/output/abstract-q-c-600-600-7.jpg")
+
+.thumb2
+  @include thumb("http://lorempixel.com/output/city-q-c-600-600-9.jpg")
+
+.thumb3
+  @include thumb("http://lorempixel.com/output/people-q-c-600-600-7.jpg")
+
+.thumb4
+  @include thumb("http://lorempixel.com/output/animals-q-c-600-600-7.jpg")
+
+.thumb5
+  @include thumb("http://lorempixel.com/output/food-q-c-600-600-7.jpg")
+
+.thumb6
+  @include thumb("http://lorempixel.com/output/nature-q-c-600-600-10.jpg")
+
+.thumb7
+  @include thumb("http://lorempixel.com/output/sports-q-c-600-600-6.jpg")
+
+.thumb8
+  @include thumb("http://lorempixel.com/output/fashion-q-c-600-600-8.jpg")
+
+.thumb9
+  @include thumb("http://lorempixel.com/output/people-q-c-600-600-2.jpg")
+
+
+
+
+
+
+
+// img
+// 	width: 30%
+// 	float: left
+// 	margin: 1.66%
 
 @media (max-width: $medium-screen) 
-  html 
-  	img
-  		width:  42.8571429%
-  		margin: 3.57142855%
+  img
+  	width:  42.8571429%
+  	margin: 3.57142855%
 
 @media (max-width: $small-screen) 
-  html 
-  	img
-  		width:  88%
-  		margin: 6%
+  img
+  	width:  88%
+  	margin: 6%
