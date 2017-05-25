@@ -7,11 +7,21 @@ $medium-screen: 700px
 //   margin: 1.66%
 //   background-image: url($image)
 
+
+
+
+
+
+
+
+
+
+
 img
 	width: 30%
 	float: left
 	margin: 1.66%
-
+  // display: inline-block
 
 @media (max-width: $medium-screen) 
   img
